@@ -1,0 +1,16 @@
+{
+  "name": "digital_portfolio",
+  "version": "1.0.0",
+  "description": "Digital Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --env-file=.env server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node": "^24.12.0"
+  }
+}
