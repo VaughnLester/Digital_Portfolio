@@ -6,7 +6,7 @@ const App = () => {
     const [text, getData] = useState(null); //needed for react, cannot use document.get... this stores those variable and useEffect sets the values (React syntax)
 
     useEffect(() => {
-    fetch("http://localhost:3000/testpage")
+    fetch("http://localhost:3000/")
         .then(res => res.text())
         .then(result => getData(result));
     }, []);
