@@ -10,10 +10,20 @@ const App = () => {
 
   return (
     <>
+    <div className='app'>
     <Header />
     <NavBar />
-    <PageContent />
+    <section>
+        <div className='container'>
+            <div className='grid'>
+                <PageContent />
+                <PageContent />
+                <PageContent />
+            </div>
+        </div>
+    </section>
     <Footer />
+    </div>
     </>
   )
 }

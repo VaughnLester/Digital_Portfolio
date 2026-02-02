@@ -1,2 +1,16 @@
 /* for general styling of the whole page */
 h1{color:red}
+.app{
+    background-color: grey;
+}
+.container{
+    max-width: 80%;
+    border-style: solid;
+    border-color: black;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-style: solid;
+    border-color: brown;
+}
