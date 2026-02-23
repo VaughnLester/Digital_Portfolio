@@ -1,1 +1,14 @@
-.header{background-color: aquamarine;}
+.header{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+.headerPhoto{
+    border: 2px solid black;
+}
+.headerText{
+    border: 2px solid black;
+
+}

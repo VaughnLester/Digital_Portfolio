@@ -1,10 +1,15 @@
 import "../components_css/header.css"
 
-function header(){
+function Header(){
     return(
-    <div className="header">
-        <h1>This is the header</h1>
-    </div>
+        <header className="header">
+            <div className="headerPhoto">
+                <h2>photo here</h2>
+            </div>
+            <div className="headerText">
+                <h1>My DIGITAL PORTFOLIO</h1>
+            </div>
+        </header>
     );
 }
-export default header;
+export default Header;

@@ -1,2 +1,8 @@
 /* for styling specific to this component, use class names */
 .navBar{background-color: orange;}
+.navText{
+    background-color: aliceblue;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}

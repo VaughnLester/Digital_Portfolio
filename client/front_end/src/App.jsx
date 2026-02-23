@@ -11,18 +11,18 @@ const App = () => {
   return (
     <>
     <div className='app'>
-    <Header />
-    <NavBar />
-    <section>
-        <div className='container'>
-            <div className='grid'>
-                <PageContent />
-                <PageContent />
-                <PageContent />
-            </div>
-        </div>
-    </section>
-    <Footer />
+        <section className='Header'>
+            <div className='container'><div className='flex'><Header /></div></div>
+        </section>
+        <section className='NavBar'>
+            <div className='container'><div className='flex'><NavBar /></div></div>
+        </section>
+        <section className='PageContent'>
+            <div className='container'><div className='grid'><PageContent /></div></div>
+        </section>
+        <section className='Footer'>
+                <div className='container'><div className='flex'><Footer /></div></div>
+        </section>
     </div>
     </>
   )

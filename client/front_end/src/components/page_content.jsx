@@ -17,11 +17,13 @@ function page_content(){
 
     return(
         <div className="pageContent">
-        <h1>MAIN PAGE CONTENT</h1>
-        <h1>Vaughn Lester: Digital Portfolio</h1><br></br>
-        <a href={projects[0] && projects[0].link}>D2G Digital Documentation Dump</a>
+            <h1>MAIN PAGE CONTENT</h1>
+            <h1>Vaughn Lester: Digital Portfolio</h1><br></br>
+            <a href={projects[0] && projects[0].link}>D2G Digital Documentation Dump</a>
         </div>
     );
+
+    
 }
 
 export default page_content;
