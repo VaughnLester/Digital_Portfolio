@@ -1,10 +1,17 @@
 .pageContent{
-    background-color: green;
-    border: 10px;
-    border-style: solid;
-    border-color:pink;
-    margin-top:10%;
-    margin-bottom:30%;
-    margin-left:5%;
-    max-width: 30%;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 2px solid black;
+    gap: 2rem;
+    min-height: 100vh;
+}
+.project1{
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+.project2{
+    background-color: cadetblue;
+    border: 2px solid black;
 }

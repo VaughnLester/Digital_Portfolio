@@ -1,8 +1,19 @@
 /* for styling specific to this component, use class names */
-.navBar{background-color: orange;}
-.navText{
+.navBar{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navLink1{
     background-color: aliceblue;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid black;
+}
+.navLink2{
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+.navLink3{
+    background-color: aliceblue;
+    border: 2px solid black;
 }

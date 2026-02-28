@@ -1,9 +1,10 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import NavBar from "./components/navbar";
 import Header from "./components/header";
 import PageContent from "./components/page_content";
 import Footer from "./components/footer";
-
+import About from "./pages/about";
 
 const App = () => {
     //javascript goes here:
@@ -11,21 +12,19 @@ const App = () => {
   return (
     <>
     <div className='app'>
-        <section className='Header'>
-            <div className='container'><div className='flex'><Header /></div></div>
-        </section>
-        <section className='NavBar'>
-            <div className='container'><div className='flex'><NavBar /></div></div>
-        </section>
-        <section className='PageContent'>
-            <div className='container'><div className='grid'><PageContent /></div></div>
-        </section>
-        <section className='Footer'>
-                <div className='container'><div className='flex'><Footer /></div></div>
-        </section>
+        <BrowserRouter>
+        <Header />
+        <NavBar />
+        <Routes>
+            <Route path="/" element={<PageContent />} />
+            <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+        </BrowserRouter>
     </div>
     </>
   )
 }
 
 export default App
+

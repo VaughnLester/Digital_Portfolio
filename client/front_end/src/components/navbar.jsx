@@ -1,14 +1,11 @@
 import "../components_css/navbar.css"
+import { Link } from "react-router-dom";
 
 function NavBar(){
     return(
     <nav className="navBar">
-        <div className="navText">
-            <h1>This is the NAV BAR</h1>
-        </div>
-        <div className="navLinks">
-            <h1>This is where link go</h1>
-        </div>
+        <Link to="/">HOME</Link>
+        <Link to="/about">Link to About Page!</Link>
     </nav>);
 }
 
