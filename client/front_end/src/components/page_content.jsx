@@ -18,14 +18,15 @@ function Page_content(){
     return(
         <div className="pageContent">
             <div className="project1">
-                <h1>Vaughn Lester: D2G Digital Documentation Dump</h1><br></br>
-                <a href={projects[0] && projects[0].link}>D2G Digital Documentation Dump</a>
+                <h1>Project 1:</h1>
+                <a href={projects[0] && projects[0].link}> <h1>Vaughn Lester: D2G Digital Documentation Dump</h1> </a>
             </div>
             <div className="project2">
                 <h1>This is project 2</h1>
             </div>
         </div>
     );
+
 
     
 }

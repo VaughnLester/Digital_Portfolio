@@ -1,19 +1,16 @@
 /* for styling specific to this component, use class names */
 .navBar{
-    background-color: orange;
     display: flex;
     align-items: center;
-    gap: 2rem;
-}
-.navLink1{
-    background-color: aliceblue;
     border: 2px solid black;
 }
-.navLink2{
-    background-color: aliceblue;
+.homeLink{
     border: 2px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
 }
-.navLink3{
-    background-color: aliceblue;
+.aboutLink{
     border: 2px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
 }

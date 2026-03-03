@@ -1,0 +1,13 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 80vh;
+    align-items: 50%;
+    justify-items: center;
+    border: 5px solid black;
+    padding-top: 5%;
+}
+.about-content{
+    border: 10px solid blue;
+    padding: 2%;
+}
