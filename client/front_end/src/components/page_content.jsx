@@ -9,7 +9,7 @@ function Page_content(){
     const [projects, getData] = useState([]); //needed for react, cannot use document.get... this stores those variable and useEffect sets the values (React syntax)
 
     useEffect(() => {
-    fetch("http://localhost:3000/projectAPI")
+    fetch("/projectAPI")
         .then(res => res.json())
         .then(result => getData(result));
     }, []);
@@ -19,7 +19,7 @@ function Page_content(){
         <div className="pageContent">
             <div className="project1">
                 <h1>Project 1:</h1>
-                <a href={projects[0] && projects[0].link}> <h1>Displays2Go: D2G Digital Documentation Dump</h1> </a>
+                <a href={projects[0] && projects[0].link}> <h1>{projects[0].title}</h1> </a>
             </div>
         </div>
     );
