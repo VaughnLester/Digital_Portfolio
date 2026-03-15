@@ -19,7 +19,7 @@ function Page_content(){
         <div className="pageContent">
             <div className="project1">
                 <h1>Project 1:</h1>
-                <a href={projects[0] && projects[0].link}> <h1>{projects[0].title}</h1> </a>
+                <a href={projects[0] && projects[0].link}> <h1>{projects[0] && projects[0].title}</h1> </a>
             </div>
         </div>
     );
