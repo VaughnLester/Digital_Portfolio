@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0",
+    "vite": "^8.0.0"
+  },
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client/front_end && npm install && npm run build",
+    "start": "node back_end/server.js"
+  }
+}
