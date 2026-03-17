@@ -26,7 +26,7 @@ app.get('/projectAPI', async (req, res)=>{ //creating a get route
 });
 
 // Catch-all route: serve React index.html for all other paths, must be at the bottom 
-app.get("*", (req, res) => {
+app.use((req, res) => {
   res.sendFile(indexPath);
 });
 
