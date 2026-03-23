@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 
 function NavBar(){
     return(
-    <nav className="navBar">
-        <div className="homeLink"> <h2><Link to="/">HOME</Link></h2> </div>
-        <div className="aboutLink"> <h2><Link to="/about">ABOUT</Link></h2> </div>
+    <nav className="flex justify-between items-center p-4 bg-white shadow">
+        <div className="space-x-4">
+        <a className="hover:text-indigo-600"><Link to="/">Home</Link></a>
+        <a className="hover:text-indigo-600"><Link to="/about">About</Link></a>
+  </div>
     </nav>);
 }
 

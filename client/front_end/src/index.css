@@ -1,4 +1,7 @@
 /* for general styling of the whole page */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .app{
     
 }

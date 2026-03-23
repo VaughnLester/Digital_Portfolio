@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <>
-    <div className='app'>
+    <div className="bg-gray-100 min-h-screen max-w-6xl mx-auto px-6 py-10">
         <BrowserRouter>
         <Header />
         <NavBar />
