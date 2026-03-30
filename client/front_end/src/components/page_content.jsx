@@ -17,9 +17,9 @@ function Page_content(){
 
     return(
         <div className="bg-gray-300 grid grid-cols-3 gap-8 p-[5%] min-h-[80vh] auto-rows-min">
-            <div className="bg-white p-5 rounded-xl shadow transition hover:-translate-y-1 hover:shadow-lg">
-                <h1>Project 1:</h1>
-                <a href={projects[0] && projects[0].link}> <h1>{projects[0] && projects[0].title}</h1> </a>
+            <div className="bg-white p-5 rounded-xl shadow transition hover:-translate-y-1 hover:shadow-lg text-center">
+                <h1 className="font-bold lg">Project 1:</h1>
+                <a href={projects[0]?.link}> <h1 className="font-bold lg">{projects[0]?.title}</h1> </a>
             </div>
         </div>
     );
